@@ -27,12 +27,6 @@
 }
 
 /* Nav bar */
-i{
-    text-align: left;
-    color: black;
-    margin-left: -60%;
-    margin-top: 20%;
-}
 nav{
     padding-top: 80px;
     height: 100vh;
@@ -97,18 +91,24 @@ nav>a{
 #top-bar{
     background-color: white;
     width:100%;
+    height:94px;
     position:fixed;
 }
 #above-bar{
     background-color: black;
     color: white;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    font-size: 15px;
+    height: 34px;
+    line-height: 34px;
+    vertical-align:middle;
+    font-size: 14px;
+    cursor: pointer;
 }
 .below-bar{
     display:flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    height: 60px;
 }
 .go-left{
     width:20px;
@@ -125,15 +125,22 @@ nav>a{
     margin:5px;
 }
 #logo{
-    width:35vw;
-    margin-top: 15px;
+    width:190px;
 }
 .checkout{
-    width:73px;
-    margin:15px;
+    width:21px;
+    border-radius: 50%;
+    height:21px;
+    line-height: 21px;
+    width:21px;
+    font-size: 13px;
+    font-weight:500;
     background-color:#f2f0ec ;
-    padding: 5px 10px 4px 9px ;
-    border-radius: 5px;
+    transition-property: background-color,color;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+    margin: 5px;
+    
 }
 .checkout:hover{
     cursor: pointer;
@@ -147,19 +154,41 @@ nav>a{
     background-image: url("Mobile Assignment Images/western-rise-20200909-4755_DxO_b4e3501c-77b6-45a8-ace4-6b92d81b0ee1_800x.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding:70% 10% 15% 10%;
 }
-#top-display>h1{
-    font-size:40px ;
+#top-display>div{
+    height: 78vh;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 60px;
+}
+#top-display>div>div{
+    height:65%;
+}
+#top-display>div>h1{
+    text-shadow: 0 0 10px #6d6e71;
+    font-size:38px ;
     color: white;
     text-align: center;
+    margin-bottom: 30px;
+    font-size: 39px;
+    font-weight: 500;
+    letter-spacing: -.48px;
+    line-height: 40px;
+
 }
-#top-display>button{
+#top-display>div>button{
+    text-shadow: 0 0 10px #6d6e71;
+    height: 48px;
+    line-height:48px;
     padding:20px 50px;
-    border: none;
+    border: 1px solid #ededed;
+    padding: 0 40px;
+    font-size: 13px;
+    letter-spacing: 1px;
     border-radius: 5px;
-    width:40vw;
-    margin-top:10%;
+    transition: background-color .3s ease-in-out;
     color: #444444;
     background-color: #ffffffe6;
 }
@@ -173,10 +202,16 @@ nav>a{
 #section-1{
     margin:10%;
 }
+h2{
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: -.34px;
+    line-height: 38px;
+}
 #section-1>p{
     margin: 5%;
     color:#848587;
-    line-height:22px;
+    line-height:24px;
     letter-spacing: .05em;
 }
 /* Second Display */
