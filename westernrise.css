@@ -409,7 +409,7 @@ td{
 .section-6>div>img{
     border-radius: 10px;
     height: 650px;
-    width: 327px;
+    width: 100%;
     order:1;
     object-fit: cover;
 }
@@ -490,8 +490,7 @@ td{
     flex-wrap: wrap;
 }
 .box{
-    width:158.500px;
-    height: 158.500px;
+    width:44%;
     margin: 10px;
 }
 .box>img{
@@ -588,6 +587,7 @@ footer>ul>li{
     margin-right: 10px;
     width:24px;
     height:25px;
+    background-color: white;
 }
 footer>p{
     margin-bottom: 40px;
