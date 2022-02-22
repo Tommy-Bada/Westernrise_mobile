@@ -224,7 +224,7 @@ h2{
     margin-right:18px;
     display:flex;
     width: 90vw;
-    overflow-x: scroll;   
+    overflow-x: scroll;  
 }
 #section-2::-webkit-scrollbar {
     display: none;
@@ -378,7 +378,7 @@ td{
 }
 .section-4-box-container{
     display: flex;
-    width: 86vw;
+    width: 85vw;
     overflow-x: scroll;
 }
 .section-4-box-container::-webkit-scrollbar {
