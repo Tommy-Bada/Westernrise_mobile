@@ -378,7 +378,7 @@ td{
 }
 .section-4-box-container{
     display: flex;
-    width: 87vw;
+    width: 84vw;
     overflow-x: scroll;
 }
 .section-4-box-container::-webkit-scrollbar {
