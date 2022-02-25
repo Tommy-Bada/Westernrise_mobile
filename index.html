@@ -30,16 +30,16 @@
         <section id="main">
         <header id="top-bar">
             <p id="above-bar">FREE US Shipping over $150 + FREE Returns</p>
-            <div class="below-bar">
-                <div class="go-left">
-                <a href="javascript:void(0);" class="icon" onclick="openNav()">
+            <div id="below-bar">
+                <div class="go-left" onclick="openNav()">
+                <a class="icon">
                     <div class="burger"></div>
                     <div class="burger"></div>
                     <div class="burger"></div>
                 </a>
                 </div>
-                <div><img id="logo" src="Mobile Assignment Images/logo.svg" /></div>
-                <div class="checkout" onclick="openUp()">0</div>
+                <div><img id="logo" src="Mobile Assignment Images/logo-white.svg" /></div>
+                <div id="checkout">0</div>
             </div>
         </header>
         <section id="top-display">
@@ -107,21 +107,21 @@
             <div class="section-2-box">
                 <img class="section-2-image" src="Mobile Assignment Images/untitled-0027_0aee1b81-66b7-41db-977f-5d5f22113b25_1000x.jpg"  />
                 <div class="name-price">
-                    <h3>AT Pant</h3>
-                    <h4>$128</h4>
+                    <h3>Evolution Pant</h3>
+                    <h4>$149</h4>
                  </div>
                  <table>
                      <tr>
                          <td class="first-column"> Designed For</td>
-                         <td class="second-column">Unmatched durability</td>
+                         <td class="second-column">Lightweight Versitility</td>
                      </tr>
                      <tr>
                          <td class="first-column"> Use Case</td>
-                         <td class="second-column">Workwear, around town</td>
+                         <td class="second-column">Travel, hiking</td>
                      </tr>
                      <tr>
                          <td class="first-column">Weight</td>
-                         <td class="second-column"> Height</td>
+                         <td class="second-column">Light</td>
                      </tr>
                      <tr>
                          <td class="first-column">Fabric</td>
@@ -133,7 +133,7 @@
                      </tr>
                      <tr>
                          <td class="first-column">Fit</td>
-                         <td class="second-column">Slim</td>
+                         <td class="second-column">Slim/Regular</td>
                      </tr>
                      <tr>
                          <td class="first-column">Colors</td>
@@ -152,29 +152,29 @@
              <div class="section-2-box">
                 <img class="section-2-image" src="Mobile Assignment Images/022020_WesternRise-ECOM_0156_1000x.jpg"  />
                 <div class="name-price">
-                    <h3>AT Pant</h3>
-                    <h4>$128</h4>
+                    <h3>Diversion Pant</h3>
+                    <h4>$138</h4>
                  </div>
                  <table>
                      <tr>
                          <td class="first-column"> Designed For</td>
-                         <td class="second-column">Unmatched durability</td>
+                         <td class="second-column">Ultimate comfort</td>
                      </tr>
                      <tr>
                          <td class="first-column"> Use Case</td>
-                         <td class="second-column">Workwear, around town</td>
+                         <td class="second-column">WFH, everyday</td>
                      </tr>
                      <tr>
                          <td class="first-column">Weight</td>
                          <td class="second-column"> Height</td>
                      </tr>
                      <tr>
-                         <td class="first-column">Fabric</td>
+                         <td class="first-column">Medium</td>
                          <td class="second-column">Nylon & Spandex</td>
                      </tr>
                      <tr>
                          <td class="first-column">Stretch</td>
-                         <td class="second-column">2-way</td>
+                         <td class="second-column">4-way</td>
                      </tr>
                      <tr>
                          <td class="first-column">Fit</td>
@@ -197,33 +197,33 @@
              <div class="section-2-box">
                 <img class="section-2-image" src="Mobile Assignment Images/052920_WR_ECOM_SUMMER-0272_1000x.jpg"  />
                 <div class="name-price">
-                    <h3>AT Pant</h3>
-                    <h4>$128</h4>
+                    <h3>Spectrum Jogger</h3>
+                    <h4>$108</h4>
                  </div>
                  <table>
                      <tr>
                          <td class="first-column"> Designed For</td>
-                         <td class="second-column">Unmatched durability</td>
+                         <td class="second-column">Maximum wear spectrum</td>
                      </tr>
                      <tr>
                          <td class="first-column"> Use Case</td>
-                         <td class="second-column">Workwear, around town</td>
+                         <td class="second-column">Working out, lounging</td>
                      </tr>
                      <tr>
                          <td class="first-column">Weight</td>
-                         <td class="second-column"> Height</td>
+                         <td class="second-column">Medium</td>
                      </tr>
                      <tr>
                          <td class="first-column">Fabric</td>
-                         <td class="second-column">Nylon & Spandex</td>
+                         <td class="second-column">Polyester</td>
                      </tr>
                      <tr>
                          <td class="first-column">Stretch</td>
-                         <td class="second-column">2-way</td>
+                         <td class="second-column">4-way</td>
                      </tr>
                      <tr>
                          <td class="first-column">Fit</td>
-                         <td class="second-column">Slim</td>
+                         <td class="second-column">Jogger</td>
                      </tr>
                      <tr>
                          <td class="first-column">Colors</td>
@@ -241,10 +241,28 @@
         </section>
         <section class="section-3">
             <h2 class="section-3-head">Apparel, Elevated</h2>
-            <img src="Mobile Assignment Images/100719_WR_Shirts_Eric-7057_1_98741767-a982-4547-8423-a2ea30510885_600x.jpg" width="80%" height="auto" />
-            <h3>Ultimate Simplicity</h3>
-            <p>Every design detail and process is considered, removing 
-                removing anything unnecessary for maximus efficency</p>
+            <div class="section-3-box-container">
+                <div class="section-3-box" >
+                    <img src="Mobile Assignment Images/100719_WR_Shirts_Eric-7057_1_98741767-a982-4547-8423-a2ea30510885_600x.jpg" />
+                    <h3>Ultimate Simplicity</h3>
+                    <p>Every design detail and process is considered, removing 
+                        removing anything unnecessary for maximus efficency</p>
+                </div>
+                <div class="section-3-box" >
+                    <img src="Mobile Assignment Images/072320-WR-AirlightShirts-0842_600x.jpg" />
+                    <h3>Versatile Performance</h3>
+                    <p>We develop the highest quality materials with the Best
+                        suppliers to create versatile garments that perform no matter what.
+                    </p>
+                </div>
+                <div class="section-3-box" >
+                    <img src="Mobile Assignment Images/062420_WR-Montauk-0269_600x.jpg" />
+                    <h3>Timeless Style</h3>
+                    <p>Instead of chasing fads and trends, we elevate classic
+                        staples to be more versatile than ever before.
+                    </p>
+                </div>
+            </div>
         </section>
         <section class="section-4">
             <h2>Trending</h2>
@@ -256,62 +274,62 @@
                         <p>$118</p>
                         <p>Cloud</p>
                         <p>Best for: Everyday, Lounging</p>
-                        <p>Colors Available</p>
+                        <p>2 Colors Available</p>
                     </div>
                 </div>
 
                 <div class="section-4-box">
                     <img src="Mobile Assignment Images/022020_WesternRise-ECOM_0375_3_1000x.jpg" width="100%" height="auto" />
                     <div>
-                        <h3>X Cotton Button Down</h3>
-                        <p>$118</p>
-                        <p>Cloud</p>
-                        <p>Best for: Everyday, Lounging</p>
-                        <p>Colors Available</p>
+                        <h3>AT Pant</h3>
+                        <p>$128</p>
+                        <p>Blue Grey</p>
+                        <p>Best for: WFH, Hiking, Workwear</p>
+                        <p>5 Colors Available</p>
                     </div>
                 </div>
 
                 <div class="section-4-box">
                     <img src="Mobile Assignment Images/030821-WR-ECOM-Kevin-16700_400x400.jpg" width="100%" height="auto" />
                     <div>
-                        <h3>X Cotton Button Down</h3>
-                        <p>$118</p>
-                        <p>Cloud</p>
-                        <p>Best for: Everyday, Lounging</p>
-                        <p>Colors Available</p>
+                        <h3>Versa Hat</h3>
+                        <p>$59</p>
+                        <p>Black</p>
+                        <p>Best for: Travel, Hiking, Everyday</p>
+                        <p>6 Colors Available</p>
                     </div>
                 </div>
 
                 <div class="section-4-box">
-                    <img src="Mobile Assignment Images/090221-WR-ECOM-34391_600x.jpg" width="100%" height="auto" />
+                    <img src="Mobile Assignment Images/102820-WR-ECOM-TOM3403_1000x.jpg" width="100%" height="auto" />
                     <div>
-                        <h3>X Cotton Button Down</h3>
-                        <p>$118</p>
-                        <p>Cloud</p>
-                        <p>Best for: Everyday, Lounging</p>
-                        <p>Colors Available</p>
+                        <h3>StrongCore Merino Hoodie Sweater</h3>
+                        <p>$158</p>
+                        <p>Steel</p>
+                        <p>Best for: WFH, Travel, Everyday</p>
+                        <p>3 Colors Available</p>
                     </div>
                 </div>
 
                 <div class="section-4-box">
                     <img src="Mobile Assignment Images/111920-WR-ECOM-0252_600x.jpg" width="100%" height="auto" />
                     <div>
-                        <h3>X Cotton Button Down</h3>
-                        <p>$118</p>
-                        <p>Cloud</p>
-                        <p>Best for: Everyday, Lounging</p>
-                        <p>Colors Available</p>
+                        <h3>Airloft Hooded Jacket</h3>
+                        <p>$250</p>
+                        <p>Army Green</p>
+                        <p>Best for: Everyday, Outdoors</p>
+                        <p>3 Colors Available</p>
                     </div>
                 </div>
 
                 <div class="section-4-box">
                     <img src="Mobile Assignment Images/111920-WR-ECOM-0341_1000x.jpg" width="100%" height="auto" />
                     <div>
-                        <h3>X Cotton Button Down</h3>
-                        <p>$118</p>
-                        <p>Cloud</p>
-                        <p>Best for: Everyday, Lounging</p>
-                        <p>Colors Available</p>
+                        <h3>AirLoft Hooded Jacket</h3>
+                        <p>$258</p>
+                        <p>Blue Grey</p>
+                        <p>Best for: Everyday, Outdoors</p>
+                        <p>2 Colors Available</p>
                     </div>
                 </div>
             </div>
